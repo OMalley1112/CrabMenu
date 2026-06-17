@@ -1,0 +1,12 @@
+are the code for  public static void NoGravity()
+ {
+     GorillaTagger.Instance.rigidbody.AddForce(-Physics.gravity, ForceMode.Acceleration);
+ }
+
+
+
+
+ public static void JupiterWalk()
+ {
+     GorillaTagger.Instance.rigidbody.AddForce(Vector3.down * 7.77f, ForceMode.Acceleration);
+ }
